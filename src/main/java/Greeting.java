@@ -10,10 +10,10 @@ public class Greeting {
         int age = input.nextInt();
         // if statements
          if (name.equals("Bob") ){
-            System.out.println("Hello welcome " + name + " you are " + age);
+            System.out.println("Hello welcome " + name + " you are " + age + " years old ") ;
         }
          else if(name.equals("Alicia")){
-        System.out.println("Hello welcome " + name + age + " you are " + age );}
+        System.out.println("Hello welcome " + name + age + " you are " + age + " years old ");}
         else{
             System.out.println("You are not either");}
 
