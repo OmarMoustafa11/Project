@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Greeting {
     public static void main(String[] args) {
         //creating scanner object
+        //added while loop to make it contin
         while(true){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter name");
@@ -11,11 +12,11 @@ public class Greeting {
 
 
         // if statements
-         if (name.equals("Bob") ){
+         if (name.equalsIgnoreCase("Bob") ){
             System.out.println("Hello welcome " + name + " you are " + age + " years old ") ;
             break;
         }
-         else if(name.equals("Alice")) {
+         else if(name.equalsIgnoreCase("Alice")) {
              System.out.println("Hello welcome " + name + " you are " + age + " years old ");
          break;}
 
