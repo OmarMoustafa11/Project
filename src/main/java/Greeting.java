@@ -8,6 +8,7 @@ public class Greeting {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter name");
         String name = input.nextLine();
+        System.out.println("Enter age");
         int age = input.nextInt();
 
 
