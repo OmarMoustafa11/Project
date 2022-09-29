@@ -1,45 +1,36 @@
 package animalkingdom;
 
 public class animalclass {
-    private String name,sound;
+    private String name, food;
 
-    public animalclass(String name,String sound) {
+    public animalclass(String name, String food) {
+    }
+
+    public String getFood() {
+        return food;
+    }
+
+    public void setFood(String food) {
+        this.food = food;
+    }
+
+    public void setName(String name) {
         this.name = name;
-        this.sound = sound;
     }
 
-
-
-    public String getSound() {
-        return sound;
+    public String getName() {
+        return name;
     }
-    public void setSound(String sound) {
-        this.sound = sound;
-    }
-    //getter method
-    public String getName(){
-        return this.name;
+
+    public String speak(){
+    System.out.println("Nutural sound");
+    return "";
 }
-//setter method
-public void setName(String name){
-        this.name = name;
-}
-    @Override//tostring method
-    public String toString() {
-        return "animalclass{" +
-                "name='" + name + '\'' +
-                ", sound="+ sound + '\''+
-                '}';
-    }
-public void makeNoise(animalclass animal){
-        if(animal instanceof Dog ){
-            System.out.println();
 
-    }else{
-    }
+
     }
 
-}
+
 
 
 
